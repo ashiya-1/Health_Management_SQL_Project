@@ -2,19 +2,17 @@
 
 Overview:
 
-This project uses PostgreSQL, Python, and Jupyter Notebook to evaluate an employee dataset. It analyzes data consistency, runs queries, and creates visualizations to provide insights into wage distributions, department hierarchies, and managerial positions. The emphasis is on studying employee compensation trends, departmental composition, and managing behavior.
+This project involves a comprehensive Health Management System using MySQL Workbench. The system manages data related to appointments, patients, doctors, medical procedures, and billing. It includes several key functionalities to analyze and manage healthcare operations effectively.
 
 *Key Tables:
 
--Department: Contains department names and their respective IDs.
+-Appointment: Records details of appointments including appointment ID, date, time, and associated patient and doctor IDs.
 
--Department Employee: Links employees to departments, showing which employees work in which departments.
+-Billing: Contains billing information, including items billed, amounts, and patient IDs.
 
--Department Manager: Contains information about department managers, including their tenure.
+-Medical Procedures: Details the medical procedures performed during appointments.
 
--Employee: Stores employee details such as birthdate, hire date, and gender.
+-Patient: Includes patient information such as first name, last name, and patient ID.
 
--Salary: Records employee salaries with the start and end date of each salary.
-
--Title: Lists the job titles held by employees during their tenure.
+-Doctor: Holds details about doctors, including their names, specializations, and IDs.
 
